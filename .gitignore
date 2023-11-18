@@ -1,0 +1,41 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+bin/
+pkg/
+src/github.com/
+src/golang.org/
+.vscode
+.DS_Store
+debug
+.cache
+.git
+NodeUpgrade
+Upgrade
+src/softwareupgrade/vendor/golang.org/
+src/softwareupgrade/vendor/github.com/
+*.swp
+demo-1.sh
+demo-2.sh
+demo-3.sh
+LaunchUpgrade-2.json
+LaunchUpgrade-3.json
+ShouldWork-20-08-2018.sh
+ShouldWork-26-07-2018.sh
+ShouldWork-27-07-2018.sh
+shouldwork.sh
+src/CreateConfig.code-workspace
+src/CreateGraph/node-1.tf
+
+aws.sh
+CreateConfig
+CreateGraph
